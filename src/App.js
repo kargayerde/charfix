@@ -74,7 +74,7 @@ function App() {
 	}, []);
 
 	return (
-		<div className="App" on onClick={() => inputRef.current.focus()}>
+		<div className="App" onClick={() => inputRef.current.focus()}>
 			<div className="main-container" ref={containerRef}>
 				<div className="message-container">{message}</div>
 				{outputText ? (
